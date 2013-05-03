@@ -1,0 +1,44 @@
+{
+  "name": "matchmodule",
+  "description": "Use minimatch to filter installed npm modules by name.",
+  "version": "0.1.2",
+  "homepage": "https://github.com/pwmckenna/matchmodule",
+  "author": {
+    "name": "Patrick Williams",
+    "url": "http://pwmckenna.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pwmckenna/matchmodule.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pwmckenna/matchmodule/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/pwmckenna/matchmodule/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/matchmodule",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/grunt"
+  },
+  "dependencies": {
+    "minimatch": "~0.2.9"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.0",
+    "grunt": "~0.4.0a",
+    "npm": "~1.2.19",
+    "matchdep": "~0.1.2",
+    "grunt-mocha-test": "0.2.0",
+    "mocha": "~1.8.1",
+    "assert": "~0.4.9"
+  },
+  "keywords": [],
+  "readmeFilename": "README.md"
+}
