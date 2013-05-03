@@ -32,12 +32,13 @@
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.1.0",
-    "grunt": "~0.4.0a",
+    "grunt": "~0.4.1",
     "npm": "~1.2.19",
     "matchdep": "~0.1.2",
     "grunt-mocha-test": "0.2.0",
     "mocha": "~1.8.1",
-    "assert": "~0.4.9"
+    "assert": "~0.4.9",
+    "grunt-cli": "~0.1.7"
   },
   "keywords": [],
   "readmeFilename": "README.md"
