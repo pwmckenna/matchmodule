@@ -21,15 +21,21 @@ filter(pattern)
 Type: `String`
 Default: none
 
+[minimatch](/isaacs/minimatch) compatible pattern to filter installed modules.
 ## Difference from Matchdep
 
 I wanted to run grunt tasks from npm without adding them as dependencies, or without adding them to `Gruntfile.js`. By adding the following line to `Gruntfile.js`:
 ```js
-require('matchmodule').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
+module.exports = function (grunt) {
+    // load all installed grunt tasks
+    require('matchmodule').filter('grunt-*').forEach(grunt.loadNpmTasks);
+};
 ```
-I can now `npm install grunt-*` anything then immediately run that task in Grunt.
-
-[minimatch](/isaacs/minimatch) compatible pattern to filter installed modules.
+I can now do something like the following if I want to run a one time grunt task:
+```
+npm install grunt-contrib-jshint
+grunt jshint
+```
 
 ---
 Copyright (c) 2013 Patrick Williams. See LICENSE for further details.
