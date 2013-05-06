@@ -1,8 +1,7 @@
-# matchmodule [![Build Status](https://secure.travis-ci.org/pwmckenna/matchmodule.png?branch=master)](http://travis-ci.org/pwmckenna/matchmodule)
+# Matchmodule
+> ###is a node module for matching strings against currently installed modules.
 
 Inspired by Tyler Kellen's [matchdep](https://github.com/tkellen/node-matchdep).
-
-> Use minimatch to filter installed npm modules by name.
 
 ## Examples
 
