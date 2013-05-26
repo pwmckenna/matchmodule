@@ -23,6 +23,10 @@ Default: none
 [minimatch](/isaacs/minimatch) compatible pattern to filter installed modules.
 ## Difference from Matchdep
 
+Looks for install node modules in `node_modules`, rather than parsing your package.json.
+
+## Why?
+
 I wanted to run grunt tasks from npm without adding them as dependencies, or without adding them to `Gruntfile.js`. By adding the following line to `Gruntfile.js`:
 ```js
 module.exports = function (grunt) {
