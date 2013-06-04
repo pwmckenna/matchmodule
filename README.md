@@ -23,7 +23,7 @@ Default: none
 [minimatch](/isaacs/minimatch) compatible pattern to filter installed modules.
 ## Difference from Matchdep
 
-Looks for install node modules in `node_modules`, rather than parsing your package.json.
+Looks for install node modules in `node_modules`, rather than parsing package.json.
 
 ## Why?
 
