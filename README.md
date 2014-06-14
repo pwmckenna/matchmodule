@@ -20,9 +20,8 @@ filter(pattern)
 Type: `String|Array`
 Default: 'none'
 
-A [globule] compatible match pattern to filter dependencies.
+A [globule](https://github.com/cowboy/node-globule) compatible match pattern to filter dependencies.
 
-[minimatch](/isaacs/minimatch) compatible pattern to filter installed modules.
 ## Difference from Matchdep
 
 Looks for install node modules in `node_modules`, rather than parsing package.json.
