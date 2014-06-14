@@ -17,8 +17,10 @@ filter(pattern)
 ```
 
 ### pattern
-Type: `String`
-Default: none
+Type: `String|Array`
+Default: 'none'
+
+A [globule] compatible match pattern to filter dependencies.
 
 [minimatch](/isaacs/minimatch) compatible pattern to filter installed modules.
 ## Difference from Matchdep
