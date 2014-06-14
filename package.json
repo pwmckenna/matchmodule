@@ -1,7 +1,7 @@
 {
   "name": "matchmodule",
   "description": "Use minimatch to filter installed npm modules by name.",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "homepage": "https://github.com/pwmckenna/matchmodule",
   "author": {
     "name": "Patrick Williams",
